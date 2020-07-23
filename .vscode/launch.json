@@ -12,8 +12,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "c:/Users/Wilfr/Documents/Marlin/.pio/build/mega2560/firmware.elf",
-            "toolchainBinDir": "C:/Users/Wilfr/.platformio/packages/toolchain-atmelavr/bin",
+            "executable": "c:/Users/Wilfr/Documents/Marlin/.pio/build/STM32F103RC_btt_512K/firmware.elf",
+            "toolchainBinDir": "C:/Users/Wilfr/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "svdPath": "C:/Users/Wilfr/.platformio/platforms/ststm32@6.1.1/misc/svd/STM32F103xx.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
                 "task": "Pre-Debug"
@@ -24,8 +25,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "c:/Users/Wilfr/Documents/Marlin/.pio/build/mega2560/firmware.elf",
-            "toolchainBinDir": "C:/Users/Wilfr/.platformio/packages/toolchain-atmelavr/bin",
+            "executable": "c:/Users/Wilfr/Documents/Marlin/.pio/build/STM32F103RC_btt_512K/firmware.elf",
+            "toolchainBinDir": "C:/Users/Wilfr/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "svdPath": "C:/Users/Wilfr/.platformio/platforms/ststm32@6.1.1/misc/svd/STM32F103xx.svd",
             "internalConsoleOptions": "openOnSessionStart"
         }
     ]
